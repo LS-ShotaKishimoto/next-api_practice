@@ -1,0 +1,45 @@
+.content {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.box {
+  border: 2px solid;
+  border-image: linear-gradient(to bottom, #f3f700 0%, #00f2e2 100%);
+  border-image-slice: 1;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  column-gap: 50px;
+}
+
+.backButton {
+  outline: none;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.image {
+  max-width: 400px;
+}
+
+.text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}

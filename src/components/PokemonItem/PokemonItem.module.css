@@ -2,6 +2,9 @@
   list-style: none;
   font-size: 18px;
   font-weight: 700;
+  border: 2px solid;
+  border-image: linear-gradient(to bottom, #f3f700 0%, #00f2e2 100%);
+  border-image-slice: 1;
 }
 
 .link {
@@ -10,7 +13,8 @@
   text-decoration: none;
   text-align: center;
   padding: 40px 30px;
-  border: 2px solid;
-  border-image: linear-gradient(to bottom, #f3f700 0%, #00f2e2 100%);
-  border-image-slice: 1;
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
