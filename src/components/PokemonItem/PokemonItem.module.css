@@ -1,0 +1,16 @@
+.item {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.link {
+  color: white;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 40px 30px;
+  border: 2px solid;
+  border-image: linear-gradient(to bottom, #f3f700 0%, #00f2e2 100%);
+  border-image-slice: 1;
+}
