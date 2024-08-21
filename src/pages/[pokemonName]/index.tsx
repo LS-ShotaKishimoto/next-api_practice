@@ -1,21 +1,15 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './Detail.module.css'
-import axios from 'axios'
+import type { PokemonDetailType } from '@/types/pokemon';
+import { useRouter } from 'next/router';
+import axios from 'axios';
+import PokemonDetail from '@/components/PokemonDetail/PokemonDetail';
 
-const index = ({results}) => {
+const index = () => {
+  const router = useRouter();
+
   return (
-    <div className={styles.content}>
-      <div className={styles.inner}>
-          <button className={styles.backButton}>Back</button>
-          <div className={styles.box}>
-            <img className={styles.image} src="./sample.jpg" />
-            <p className={styles.text}>
-              <span>Name: charizard</span>
-              <span>Type: fire / flying</span>
-            </p>
-          </div>
-      </div>
-    </div>
+    <PokemonDetail />
   )
 }
 

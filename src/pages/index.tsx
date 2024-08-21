@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Home.module.css'
-import PokemonList from '@/components/PokemonList/PokemonList';
+import PokemonList from '@/components/PokemonList/PokemonList'
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
         <PokemonList />
       </main>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
